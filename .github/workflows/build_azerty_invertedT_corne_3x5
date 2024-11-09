@@ -1,0 +1,9 @@
+name: 'Build AZERTY layout with InvertedT nav options for a 3x5 Corne (with Nice Nano v2 + Nice View)'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
