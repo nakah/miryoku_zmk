@@ -11,4 +11,4 @@ jobs:
       nav: '["invertedT"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
-      branches: '["petejohanson:feat/pointers-with-input-processors","zmkfirmware/zmk/main petejohanson:feat/pointers-with-input-processors"]'
+      branches: '["petejohanson/feat/pointers-with-input-processors"]'
