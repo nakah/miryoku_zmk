@@ -7,5 +7,8 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      alphas: '["AZERTY"]'
+      alphas: '["QUERTY"]'
       nav: '["invertedT"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
